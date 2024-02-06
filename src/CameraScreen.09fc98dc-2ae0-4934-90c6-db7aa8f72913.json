@@ -1,4 +1,5 @@
 {
+    "id": "09fc98dc-2ae0-4934-90c6-db7aa8f72913",
     "type": "Screen",
     "translatedName": "Screen",
     "reactType": "ViewWithProps",
@@ -29,7 +30,8 @@
             "flexDirection": "column",
             "justifyContent": "center",
             "alignItems": "center",
-            "display": "flex"
+            "display": "flex",
+            "backgroundColor": "rgba(155, 155, 155, 1)"
         },
         "ShowStatusBar": true,
         "StatusBarStyle": "default",
@@ -51,7 +53,8 @@
         "navigationOptions": {
             "headerStyle": {}
         },
-        "tabNavigationOptions": {}
+        "tabNavigationOptions": {},
+        "BackgroundColor": "rgba(155, 155, 155, 1)"
     },
     "children": [
         {
@@ -609,7 +612,6 @@
             "name": "Logo"
         }
     ],
-    "id": "09fc98dc-2ae0-4934-90c6-db7aa8f72913",
     "thunkableVersion": 443,
     "name": "CameraScreen"
 }
